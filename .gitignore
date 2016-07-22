@@ -41,6 +41,11 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# my shit
+__pycache__/*
+offline/*
+offline_download/*
 zz_uploadFtp.py
 zz_downloadShit.py
 zz_downloadShit.log
