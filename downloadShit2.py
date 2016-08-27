@@ -16,7 +16,7 @@ from random import randrange
 # always set offset -1 then the filename number u want to start with
 # Examples:
 # downloadAbook("http://url.com/book1/", "book1_", 10, 12)   -> http://url.com/book1/10.mp3  .. http://url.com/book1/12.mp3
-# downloadAbook("http://url.com/book2/", "book2_", 1, 50, 3) -> http://url.com/book2/005.mp3 .. http://url.com/book2/030.mp3
+# downloadAbook("http://url.com/book2/", "book2_", 1, 50, 3) -> http://url.com/book2/001.mp3 .. http://url.com/book2/050.mp3
 def downloadAbook(httpPrefix, localPrefix, startIndex, endIndex, zfillUrl=1):
 	global downloadDir, doDelay, doLog
 	# .... endIndex+1 to make it inclusive!
